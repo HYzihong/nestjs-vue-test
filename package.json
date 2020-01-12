@@ -1,0 +1,19 @@
+{
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hou-cli": "bin/cli.js"
+  },
+  "keywords": [],
+  "author": "{{ author }}",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^4.1.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.5.3"
+  }
+}
